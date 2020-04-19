@@ -1,0 +1,493 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+.coosinus-logo-navbar {
+    margin-left: 50px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-white {
+    background-color: #FFFBFB;
+}
+
+.bg-main1 {
+    background-color: #6DC285;
+}
+
+.btn-main1 {
+    background-color: #6DC285;
+    color:white;
+}
+
+.btn-main2 {
+    background-color: #ffffff;
+    color: #6DC285;
+}
+
+.button-container .btn {
+    font-size: 24px;
+}
+
+.navbar {
+    /*height: 123px;*/
+}
+
+.height-main {
+    height: calc(100vh - 67px);
+}
+
+.bear {
+    background: url("images/bear.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
+
+.main-section {
+    background-image: linear-gradient(135deg, #76b59c, #afd7b7);
+}
+
+.makin-seru {
+    height: 100px;
+    background-color: #d8e5d9;
+}
+
+.four-icons {
+    min-height: calc(100vh - 100px);
+}
+
+.four-logo {
+    height: 221px;
+}
+
+.sertifikat-mobile {
+    display:none;
+}
+
+.versus-pc {
+    background: url("images/bg-circles.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display:flex;
+}
+
+.versus-mobile {
+    display: none;
+    border-bottom: 8px solid #6ec386;
+}
+
+.versus-mobile-title {
+    height:150px;
+}
+
+.versus-mobile-button {
+    height:75px;
+    background-color: #d3edda;
+    border-top: 2px solid #6ec386;
+}
+
+.table-pc {
+    width:60%;
+}
+
+.hadiah-section {
+    background: url("images/hadiah-art-pc.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 400px;
+    background-position-y: -35px;
+}
+
+.hadiah-gambar {
+    width:30vw;
+}
+
+footer {
+    background-color: #418855;
+}
+
+.footer-top {
+    height:300px;
+    background-color: #579969;
+}
+
+.footer-bottom {
+    height: 132px;
+}
+
+.selected-table-tab-mobile {
+    border-bottom: 5px solid #6ec386 ;
+}
+
+.selected-table {
+    display:block;
+}
+
+.not-selected-table {
+    display: none;
+}
+
+/* Dashboard */
+
+.mplus-font {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #7B7B7B;
+}
+
+.exp-bar-nav {
+    width: 309px;
+    height: 29px;
+    background-color: white;
+    border: 5px solid #A5D8B3;
+    box-sizing: border-box;
+}
+
+.exp-point-nav {
+    height:100%;
+    background-color:#A6DCE8;
+}
+
+.bg-sidebar {
+    background-color: rgba(109, 194, 133, 0.61);
+}
+
+.sidebar {
+    width:150px;
+}
+
+.sidebar-tab {
+    width: 130px;
+    height: 110px;
+    border-radius: 10px 0 0 10px;
+}
+
+.sidebar-tab:hover {
+    background-color:white !important;
+}
+
+.sidebar-tab-book {
+    background: url("images/profile/book-tab.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-book:hover {
+    background: url("images/profile/book-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-profile {
+    background: url("images/profile/profile-tab.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-profile:hover {
+    background: url("images/profile/profile-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-gift {
+    background: url("images/profile/gift-tab.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-gift:hover {
+    background: url("images/profile/gift-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-card {
+    background: url("images/profile/card-tab.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-card:hover {
+    background: url("images/profile/card-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-selected-book {
+    background: url("images/profile/book-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-selected-profile {
+    background: url("images/profile/profile-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-selected-gift {
+    background: url("images/profile/gift-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sidebar-tab-selected-card {
+    background: url("images/profile/card-tab-selected.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.selected-sidebar-tab {
+    background-color: white;
+}
+
+.selected-tab-icon {
+    fill:black;
+}
+
+.main-content {
+    width:calc(100% - 150px);
+}
+
+.progress-bar-profile {
+    height: 30px;
+    background-color: white;
+    border: 5px solid #A5D8B3;
+    box-sizing: border-box;
+}
+
+.progress-points-profile {
+    background-color: #A6DCE8;
+    width:75%;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+    color: #7B7B7B;
+}
+
+.btn-main3 {
+    background-color: #E4F9EA;
+    color: #E87979;
+    font-size: 12px;
+}
+
+.activity-item {
+    border-radius: 28px;
+    border: 2px solid #7B7B7B;
+}
+
+/* REDEEM */
+
+.main-content {
+    font-size: 10px !important;
+}
+
+.main-content h5 {
+    color: #474D5B;
+}
+
+.main-content p {
+    color: #474D5B;
+    font-size: 12px !important;
+}
+
+.redeem-poin > p {
+    color: #7B7B7B;
+}
+
+.rounded-box {
+    border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+    .main-content h5 {
+        font-size: 35px !important;
+    }
+
+    .main-content p {
+        font-size: 20px !important;
+    }
+
+    .btn-main3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width:100px;
+    }
+    
+    .sidebar-tab {
+        width: 90px;
+        height: 75px;
+    }
+    
+    .sidebar-tab-book {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-book:hover {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-profile {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-profile:hover {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-gift {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-gift:hover {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-card {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-card:hover {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-selected-book {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-selected-profile {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-selected-gift {
+        background-size: 40px;
+    }
+    
+    .sidebar-tab-selected-card {
+        background-size: 40px;
+    }
+    
+    .selected-sidebar-tab {
+        background-color: white;
+    }
+    
+    .selected-tab-icon {
+        fill:black;
+    }
+    
+}
+
+/* END REDEEN */
+
+@media (max-width:768px){
+    .main-text {
+        padding-top: 120px;
+        height:auto;
+    }
+
+    .bear.height-main {
+        height:360px;
+    }
+
+    .button-container .btn {
+        font-size: 16px;
+    }
+
+    .sertifikat-mobile {
+        display:block;
+    }
+
+    .sertifikat-pc {
+        display:none;
+    }
+
+    .versus-pc {
+        display: none;
+    }
+
+    .versus-mobile {
+        display: block;
+    }
+
+    .hadiah-gambar {
+        width: 90%;
+    }
+
+    .logo-penghargaan {
+        width:100%;
+    }
+
+    footer, .footer-top {
+        height:auto;
+    }
+
+    .hadiah-section {
+        background: none;
+    }
+
+    .ayo-belajar h1 {
+        font-size: 24px;
+    }
+    
+    .ayo-belajar h5 {
+        font-size: 16px;
+    }
+
+    .ayo-belajar > div {
+        padding:30px !important;
+        margin:0 !important;
+    }
+
+    .coosinus-logo-navbar {
+        padding:0;
+        margin:0;
+        height:25px;
+    }
+
+    /* Profile */
+    .exp-bar-nav {
+        width:90px;
+        height: 8px;
+        border-width: 1px;
+    }   
+
+    .nav-icon {
+        width: 20px;
+    }
+
+    .nav-text {
+        font-size: 20px;
+    }
+
+    .pfp-nav {
+        height: 48.93px;
+    }
+
+    .nav-name {
+        font-size: 14px;
+    }
+
+    .nav-level {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:576px){
+    .main-content {
+        width: 100vh !important;
+    }    
+    .sidebar {
+        display: none !important;
+    }
+}
